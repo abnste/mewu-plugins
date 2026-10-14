@@ -1,0 +1,19 @@
+{
+  "assetName": "interactive-widget-0.1.0.zip",
+  "description": "可移动空间对象中的交互式透明 SVG 尺。",
+  "hostApi": 2,
+  "id": "example.interactive-widget",
+  "name": "交互圆角尺",
+  "platforms": [
+    "any"
+  ],
+  "releaseTag": "v0.1.0",
+  "repository": "abnste/mewu-plugins",
+  "sha256": "72eee7a57a4ac66babacc0b0f3ad6ceeb684bc7d43f05ba58593ffaa1087cad2",
+  "size": 3391,
+  "tags": [
+    "ui",
+    "renderers"
+  ],
+  "version": "0.1.0"
+}

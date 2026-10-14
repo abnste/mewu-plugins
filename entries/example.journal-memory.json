@@ -1,0 +1,18 @@
+{
+  "assetName": "journal-memory-0.1.0.zip",
+  "description": "每条记忆单独持久化，按 Agent 隔离并分页检索。",
+  "hostApi": 2,
+  "id": "example.journal-memory",
+  "name": "独立日志记忆",
+  "platforms": [
+    "any"
+  ],
+  "releaseTag": "v0.1.0",
+  "repository": "abnste/mewu-plugins",
+  "sha256": "85891f3f9550f268cb515fd2563b4f4ddc552e0f6207216e69b49572a561b4fb",
+  "size": 4546,
+  "tags": [
+    "memory"
+  ],
+  "version": "0.1.0"
+}
