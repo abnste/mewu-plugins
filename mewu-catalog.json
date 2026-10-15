@@ -39,7 +39,7 @@
       "version": "0.1.0"
     },
     {
-      "assetName": "region-agent-0.1.0.zip",
+      "assetName": "region-agent-0.1.1.zip",
       "description": "根据真实选区截图观察、操作并再次截图反馈。",
       "hostApi": 2,
       "id": "example.region-agent",
@@ -47,16 +47,16 @@
       "platforms": [
         "windows-x86_64"
       ],
-      "releaseTag": "v0.1.0",
+      "releaseTag": "v0.1.1",
       "repository": "abnste/mewu-plugins",
-      "sha256": "157b1d4800b426d991266d8f8431759d50bccda8f1aa026b693ea449444d3c55",
-      "size": 4819,
+      "sha256": "8916a83377a34252ed30676e3da32f49b2cd1099e32019d3c05b76e1b5302d6c",
+      "size": 5333,
       "tags": [
         "agi",
         "tools",
         "vision"
       ],
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }
