@@ -1,0 +1,8 @@
+{
+  "id": "example.interactive-widget",
+  "packageSha256": "72eee7a57a4ac66babacc0b0f3ad6ceeb684bc7d43f05ba58593ffaa1087cad2",
+  "screenshots": [],
+  "sourceCommit": "bb588f790055416970941f5f12ed5564d9fdfc22",
+  "sourceRepository": "abnste/mewu-plugin-interactive-widget",
+  "version": "0.1.0"
+}

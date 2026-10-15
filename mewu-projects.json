@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "projects": [
+    {
+      "id": "example.interactive-widget",
+      "packageSha256": "72eee7a57a4ac66babacc0b0f3ad6ceeb684bc7d43f05ba58593ffaa1087cad2",
+      "screenshots": [],
+      "sourceCommit": "bb588f790055416970941f5f12ed5564d9fdfc22",
+      "sourceRepository": "abnste/mewu-plugin-interactive-widget",
+      "version": "0.1.0"
+    },
+    {
+      "id": "example.journal-memory",
+      "packageSha256": "85891f3f9550f268cb515fd2563b4f4ddc552e0f6207216e69b49572a561b4fb",
+      "screenshots": [],
+      "sourceCommit": "40a0bfc5ca7c596cc32ef6932298110f9008da81",
+      "sourceRepository": "abnste/mewu-plugin-journal-memory",
+      "version": "0.1.0"
+    },
+    {
+      "id": "example.region-agent",
+      "packageSha256": "4bf2626696c0a95b53680dd6724e75a934e35b65e9a6d21c6f6dcfaa6188443b",
+      "screenshots": [
+        {
+          "height": 310,
+          "path": "screenshots/conversation-windows.png",
+          "sha256": "3e5fd70face449054a87b4727df9e9ae65f63d8df41b4bb7a8ac4ff30dc7405c",
+          "size": 91347,
+          "width": 573
+        },
+        {
+          "height": 494,
+          "path": "screenshots/target-completed-windows.jpg",
+          "sha256": "d74a23ec3b877a6afbb3f575d7b319c431b1fa5427cd81f6ab2f1e908bd3dfeb",
+          "size": 16377,
+          "width": 706
+        }
+      ],
+      "sourceCommit": "bc96f00e0be1293ed1870b9c66aadb64c83c0e60",
+      "sourceRepository": "abnste/mewu-plugin-region-agent",
+      "version": "0.1.2"
+    }
+  ]
+}
