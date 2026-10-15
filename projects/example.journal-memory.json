@@ -1,8 +1,17 @@
 {
   "id": "example.journal-memory",
   "packageSha256": "85891f3f9550f268cb515fd2563b4f4ddc552e0f6207216e69b49572a561b4fb",
-  "screenshots": [],
-  "sourceCommit": "40a0bfc5ca7c596cc32ef6932298110f9008da81",
+  "screenshots": [
+    {
+      "path": "screenshots/settings-macos.png",
+      "sha256": "5b78c51c6d50b7459baebd1a20150d535b5ec23d63295872de4f5abe7d0aa088",
+      "size": 34612,
+      "width": 820,
+      "height": 652,
+      "caption": "macOS 中为 Agent 配置独立日志记忆（插件0.1.0）"
+    }
+  ],
+  "sourceCommit": "4d907f6a065baae00e939036fbfa2ede1c6af9f7",
   "sourceRepository": "abnste/mewu-plugin-journal-memory",
   "version": "0.1.0"
 }
