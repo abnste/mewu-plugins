@@ -14,7 +14,7 @@
           "width": 940
         }
       ],
-      "sourceCommit": "0a38c6287ab2da4b16769095f614dff8f9589ed6",
+      "sourceCommit": "01fe8917ab58ffe9542f2f87de391084fdae3574",
       "sourceRepository": "abnste/mewu-plugin-interactive-widget",
       "version": "0.1.0"
     },
@@ -31,7 +31,7 @@
           "width": 820
         }
       ],
-      "sourceCommit": "4d907f6a065baae00e939036fbfa2ede1c6af9f7",
+      "sourceCommit": "48e02d55da4e0a934775f9aa3453a429249e9a69",
       "sourceRepository": "abnste/mewu-plugin-journal-memory",
       "version": "0.1.0"
     },
@@ -54,7 +54,7 @@
           "width": 706
         }
       ],
-      "sourceCommit": "bc96f00e0be1293ed1870b9c66aadb64c83c0e60",
+      "sourceCommit": "84ed812207cb074b87c30a30d422d50d372a3177",
       "sourceRepository": "abnste/mewu-plugin-region-agent",
       "version": "0.1.2"
     }

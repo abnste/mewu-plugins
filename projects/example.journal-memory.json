@@ -11,7 +11,7 @@
       "caption": "macOS 中为 Agent 配置独立日志记忆（插件0.1.0）"
     }
   ],
-  "sourceCommit": "4d907f6a065baae00e939036fbfa2ede1c6af9f7",
+  "sourceCommit": "48e02d55da4e0a934775f9aa3453a429249e9a69",
   "sourceRepository": "abnste/mewu-plugin-journal-memory",
   "version": "0.1.0"
 }
