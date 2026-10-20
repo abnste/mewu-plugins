@@ -14,5 +14,13 @@
   "tags": [
     "memory"
   ],
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "icon": {
+    "paths": [
+      "M5 3h12a2 2 0 0 1 2 2v16H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z",
+      "M7 3v14m-4 0h16M10 7h5m-5 4h5"
+    ],
+    "color": "#16a085",
+    "filled": false
+  }
 }

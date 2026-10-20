@@ -15,5 +15,13 @@
     "ui",
     "renderers"
   ],
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "icon": {
+    "paths": [
+      "M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z",
+      "M7 5v5m5-5v8m5-8v5"
+    ],
+    "color": "#8b5cf6",
+    "filled": false
+  }
 }
