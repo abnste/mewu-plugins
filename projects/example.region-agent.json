@@ -1,6 +1,6 @@
 {
   "id": "example.region-agent",
-  "packageSha256": "4bf2626696c0a95b53680dd6724e75a934e35b65e9a6d21c6f6dcfaa6188443b",
+  "packageSha256": "bfc5235101e44f42624d6f35630246f9b315cf31263e556befbd175a65dd5fca",
   "screenshots": [
     {
       "height": 310,
@@ -15,9 +15,17 @@
       "sha256": "d74a23ec3b877a6afbb3f575d7b319c431b1fa5427cd81f6ab2f1e908bd3dfeb",
       "size": 16377,
       "width": 706
+    },
+    {
+      "path": "screenshots/whole-window-windows-013.jpg",
+      "sha256": "a9c1143420ec77948aa34f4b4e0ee1236b24fb9aca749791faa77fcb50b7a10a",
+      "size": 38226,
+      "width": 1127,
+      "height": 815,
+      "caption": "Windows 整窗区域实际完成点击与输入"
     }
   ],
-  "sourceCommit": "84ed812207cb074b87c30a30d422d50d372a3177",
+  "sourceCommit": "6737611b52062125df17be16e0a10b4959fe9a06",
   "sourceRepository": "abnste/mewu-plugin-region-agent",
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
