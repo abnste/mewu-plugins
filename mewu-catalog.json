@@ -2,6 +2,44 @@
   "schemaVersion": 2,
   "plugins": [
     {
+      "assetName": "agent-connectors-0.1.2.zip",
+      "description": "在原对话条接入 Codex、MiniMax Code、WorkBuddy / CodeBuddy 和 Hermes，并在设置中管理和检测连接。",
+      "hostApi": 2,
+      "id": "abnste.agent-connectors",
+      "name": "外部 Agent",
+      "platforms": [
+        "any"
+      ],
+      "releaseTag": "v0.1.2",
+      "repository": "abnste/mewu-plugin-agent-connectors",
+      "sha256": "335ad3c68e0bc1eae9d58fc8803e4188d998a7930034cee4a0590351fb87cbcd",
+      "size": 35748,
+      "tags": [
+        "agents",
+        "model-providers"
+      ],
+      "version": "0.1.2"
+    },
+    {
+      "assetName": "object-toolbox-0.1.2.zip",
+      "description": "跨会话收藏空间对象，拖出复用，支持文件夹和垃圾桶。",
+      "hostApi": 2,
+      "id": "abnste.object-toolbox",
+      "name": "工具包",
+      "platforms": [
+        "any"
+      ],
+      "releaseTag": "v0.1.2",
+      "repository": "abnste/mewu-plugin-object-toolbox",
+      "sha256": "5658c2c599a3c15112bbae2309ca3466ae2074f0cf47dd79c46435d14b717fe7",
+      "size": 11344,
+      "tags": [
+        "ui",
+        "tools"
+      ],
+      "version": "0.1.2"
+    },
+    {
       "assetName": "interactive-widget-0.1.0.zip",
       "description": "可移动空间对象中的交互式透明 SVG 尺。",
       "hostApi": 2,
@@ -55,6 +93,25 @@
         "agi",
         "tools",
         "vision"
+      ],
+      "version": "0.1.2"
+    },
+    {
+      "assetName": "research-notes-0.1.2.zip",
+      "description": "带对象引用的可编辑便笺，用独立列表界面管理研究记录。",
+      "hostApi": 2,
+      "id": "example.research-notes",
+      "name": "研究便笺",
+      "platforms": [
+        "any"
+      ],
+      "releaseTag": "v0.1.2",
+      "repository": "abnste/mewu-plugin-research-notes",
+      "sha256": "b0843a6090aad586646f135fcdf08298c86a1566e6dd15b53f963d524ae98abd",
+      "size": 5689,
+      "tags": [
+        "ui",
+        "tools"
       ],
       "version": "0.1.2"
     }

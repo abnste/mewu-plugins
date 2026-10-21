@@ -1,0 +1,24 @@
+{
+  "id": "example.research-notes",
+  "name": "研究便笺",
+  "description": "带对象引用的可编辑便笺，用独立列表界面管理研究记录。",
+  "tags": [
+    "ui",
+    "tools"
+  ],
+  "icon": {
+    "paths": [
+      "M5 3h14v18H5z M8 8h8 M8 12h8 M8 16h5"
+    ]
+  },
+  "repository": "abnste/mewu-plugin-research-notes",
+  "version": "0.1.2",
+  "releaseTag": "v0.1.2",
+  "assetName": "research-notes-0.1.2.zip",
+  "sha256": "b0843a6090aad586646f135fcdf08298c86a1566e6dd15b53f963d524ae98abd",
+  "size": 5689,
+  "hostApi": 2,
+  "platforms": [
+    "any"
+  ]
+}

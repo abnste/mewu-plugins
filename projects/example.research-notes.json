@@ -1,0 +1,16 @@
+{
+  "id": "example.research-notes",
+  "version": "0.1.2",
+  "packageSha256": "b0843a6090aad586646f135fcdf08298c86a1566e6dd15b53f963d524ae98abd",
+  "sourceRepository": "abnste/mewu-plugin-research-notes",
+  "sourceCommit": "fec567cb9a635cf2062b43db25eb71c86ef2e95d",
+  "screenshots": [
+    {
+      "path": "screenshots/notes-windows.png",
+      "sha256": "f3b9f18f85a6e90edbc5d57f360a13ccd43e37faefdebfec5c3b79ccbd4f855c",
+      "size": 40083,
+      "width": 340,
+      "height": 360
+    }
+  ]
+}
