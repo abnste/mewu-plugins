@@ -26,7 +26,7 @@
 
 每个插件的发行仓库必须与其源码仓库一致，且每个仓库只对应一个市场插件。市场仓库不再承载插件 ZIP，也不作为插件发行镜像；CI 同时核验条目和源码项目，拒绝再次集中发行。源码归属由固定提交核验。
 
-早期集中发行的来源修正记录见 [source-relocations.json](source-relocations.json)，插件 ID、版本、包字节及权限不变。此记录不会绕过客户端的来源锁定：1.0.5 及更早版本中已经绑定旧仓库的安装，仍需要宿主提供明确的来源迁移支持；仅卸载不会清除绑定或保留数据。
+早期集中发行的来源修正记录见 [source-relocations.json](source-relocations.json)，插件 ID、版本、包字节及权限不变。此记录不会绕过客户端的来源锁定。MewuAI 1.0.6 起，已安装页会按当前市场来源显示“更新”或“迁移来源”，安装审核展示原来源与新来源；用户确认后按通用协议迁移，保留插件 ID、配置、凭据、记忆、对象库和启停状态。同版本换源也需审核，原安装包保留用于回滚。1.0.5 及更早版本请先更新宿主；卸载不会清除既有来源绑定或保留数据。
 
 开发 SDK：[mewu-sdk-0.1.0.tgz](https://github.com/abnste/mewu-plugins/releases/download/v0.1.0/mewu-sdk-0.1.0.tgz)。宿主内置运行时模块；这个包提供开发类型与 ESM SDK，不要求用户安装 Node.js。打包与投稿命令见 [发行工具](https://github.com/abnste/mewu_ai/blob/master/tools/extension-market/README.md)。
 
