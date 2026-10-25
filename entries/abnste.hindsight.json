@@ -1,0 +1,23 @@
+{
+  "id": "abnste.hindsight",
+  "name": "Hindsight",
+  "description": "独立的 Hindsight 长期记忆接入。连接设置与记忆协议随插件安装、停用和卸载。",
+  "tags": [
+    "memory"
+  ],
+  "icon": {
+    "paths": [
+      "M12 3a4 4 0 0 0-7 3 4 4 0 0 0-2 7 4 4 0 0 0 5 6 4 4 0 0 0 4 2V3zM12 3a4 4 0 0 1 7 3 4 4 0 0 1 2 7 4 4 0 0 1-5 6 4 4 0 0 1-4 2M7 9l5 3 5-3M8 16l4-4 4 4"
+    ]
+  },
+  "version": "0.1.4",
+  "hostApi": 2,
+  "platforms": [
+    "any"
+  ],
+  "repository": "abnste/mewu-plugin-hindsight",
+  "releaseTag": "v0.1.4",
+  "assetName": "hindsight-0.1.4.zip",
+  "sha256": "db316296cc5f4176b3eee53da0be4c748ea04c0e103f203e9448efbb0186be70",
+  "size": 30714
+}

@@ -27,7 +27,31 @@
       "version": "0.1.2"
     },
     {
-      "assetName": "object-toolbox-0.1.2.zip",
+      "assetName": "hindsight-0.1.4.zip",
+      "description": "独立的 Hindsight 长期记忆接入。连接设置与记忆协议随插件安装、停用和卸载。",
+      "hostApi": 2,
+      "icon": {
+        "filled": false,
+        "paths": [
+          "M12 3a4 4 0 0 0-7 3 4 4 0 0 0-2 7 4 4 0 0 0 5 6 4 4 0 0 0 4 2V3zM12 3a4 4 0 0 1 7 3 4 4 0 0 1 2 7 4 4 0 0 1-5 6 4 4 0 0 1-4 2M7 9l5 3 5-3M8 16l4-4 4 4"
+        ]
+      },
+      "id": "abnste.hindsight",
+      "name": "Hindsight",
+      "platforms": [
+        "any"
+      ],
+      "releaseTag": "v0.1.4",
+      "repository": "abnste/mewu-plugin-hindsight",
+      "sha256": "db316296cc5f4176b3eee53da0be4c748ea04c0e103f203e9448efbb0186be70",
+      "size": 30714,
+      "tags": [
+        "memory"
+      ],
+      "version": "0.1.4"
+    },
+    {
+      "assetName": "object-toolbox-0.1.4.zip",
       "description": "跨会话收藏空间对象，拖出复用，支持文件夹和垃圾桶。",
       "hostApi": 2,
       "icon": {
@@ -41,15 +65,15 @@
       "platforms": [
         "any"
       ],
-      "releaseTag": "v0.1.2",
+      "releaseTag": "v0.1.4",
       "repository": "abnste/mewu-plugin-object-toolbox",
-      "sha256": "5658c2c599a3c15112bbae2309ca3466ae2074f0cf47dd79c46435d14b717fe7",
-      "size": 11344,
+      "sha256": "2a5d6c6a35063ccdfcf50e68a3aee017a6b3c19ec091c12397c710e38e96bd7d",
+      "size": 11762,
       "tags": [
         "ui",
         "tools"
       ],
-      "version": "0.1.2"
+      "version": "0.1.4"
     },
     {
       "assetName": "interactive-widget-0.1.0.zip",
@@ -105,7 +129,7 @@
       "version": "0.1.0"
     },
     {
-      "assetName": "region-agent-0.1.3.zip",
+      "assetName": "region-agent-0.1.5.zip",
       "description": "根据真实选区截图观察、操作并再次截图反馈。",
       "hostApi": 2,
       "icon": {
@@ -119,18 +143,20 @@
       "id": "example.region-agent",
       "name": "区域操作 Agent",
       "platforms": [
-        "windows-x86_64"
+        "windows-x86_64",
+        "darwin-aarch64",
+        "linux-x86_64"
       ],
-      "releaseTag": "v0.1.3",
+      "releaseTag": "v0.1.5",
       "repository": "abnste/mewu-plugins",
-      "sha256": "bfc5235101e44f42624d6f35630246f9b315cf31263e556befbd175a65dd5fca",
-      "size": 10786,
+      "sha256": "d45917c5389a75078403710d930a04d7d9e3fbe8eae42d24d78df9b13ff78664",
+      "size": 15750,
       "tags": [
         "agi",
         "tools",
         "vision"
       ],
-      "version": "0.1.3"
+      "version": "0.1.5"
     },
     {
       "assetName": "research-notes-0.1.2.zip",

@@ -1,0 +1,16 @@
+{
+  "id": "abnste.hindsight",
+  "version": "0.1.4",
+  "packageSha256": "db316296cc5f4176b3eee53da0be4c748ea04c0e103f203e9448efbb0186be70",
+  "sourceRepository": "abnste/mewu-plugin-hindsight",
+  "sourceCommit": "b7eeb9ec8722526d57dc5eaa12e43f3111b9f654",
+  "screenshots": [
+    {
+      "path": "screenshots/banks-macos.png",
+      "sha256": "370882e7748a120207b701f653108418878b081f2d2e0e73ee3283940022d794",
+      "size": 1790298,
+      "width": 1920,
+      "height": 1080
+    }
+  ]
+}

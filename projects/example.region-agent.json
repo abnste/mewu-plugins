@@ -1,20 +1,37 @@
 {
   "id": "example.region-agent",
-  "packageSha256": "bfc5235101e44f42624d6f35630246f9b315cf31263e556befbd175a65dd5fca",
+  "version": "0.1.5",
+  "packageSha256": "d45917c5389a75078403710d930a04d7d9e3fbe8eae42d24d78df9b13ff78664",
+  "sourceRepository": "abnste/mewu-plugin-region-agent",
+  "sourceCommit": "0555a6c7fe06e66a7313505af2f475358cf86136",
   "screenshots": [
     {
-      "height": 310,
       "path": "screenshots/conversation-windows.png",
       "sha256": "3e5fd70face449054a87b4727df9e9ae65f63d8df41b4bb7a8ac4ff30dc7405c",
       "size": 91347,
-      "width": 573
+      "width": 573,
+      "height": 310
     },
     {
-      "height": 494,
+      "path": "screenshots/macos-region-014.png",
+      "sha256": "8fbf5be0f298ffe13c92b893b0b3a6c7ddafaf6c2e7c2e314a7eddd34e9b5594",
+      "size": 1809495,
+      "width": 1920,
+      "height": 1080
+    },
+    {
       "path": "screenshots/target-completed-windows.jpg",
       "sha256": "d74a23ec3b877a6afbb3f575d7b319c431b1fa5427cd81f6ab2f1e908bd3dfeb",
       "size": 16377,
-      "width": 706
+      "width": 706,
+      "height": 494
+    },
+    {
+      "path": "screenshots/ubuntu-region-014.jpg",
+      "sha256": "0b22db2d73dadd26939b24f4d229d418e5389ee4099a948fdf1ca9207fe99626",
+      "size": 34518,
+      "width": 918,
+      "height": 676
     },
     {
       "path": "screenshots/whole-window-windows-013.jpg",
@@ -24,8 +41,5 @@
       "height": 815,
       "caption": "Windows 整窗区域实际完成点击与输入"
     }
-  ],
-  "sourceCommit": "6737611b52062125df17be16e0a10b4959fe9a06",
-  "sourceRepository": "abnste/mewu-plugin-region-agent",
-  "version": "0.1.3"
+  ]
 }

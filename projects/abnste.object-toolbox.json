@@ -1,9 +1,9 @@
 {
   "id": "abnste.object-toolbox",
-  "version": "0.1.2",
-  "packageSha256": "5658c2c599a3c15112bbae2309ca3466ae2074f0cf47dd79c46435d14b717fe7",
+  "version": "0.1.4",
+  "packageSha256": "2a5d6c6a35063ccdfcf50e68a3aee017a6b3c19ec091c12397c710e38e96bd7d",
   "sourceRepository": "abnste/mewu-plugin-object-toolbox",
-  "sourceCommit": "47416c0247f0180d14b43ffd63993e774d56f1a1",
+  "sourceCommit": "fc76236ce7ac52ca7fb7694fd48fe4ce7d9ea789",
   "screenshots": [
     {
       "path": "screenshots/toolbox-windows.png",
@@ -11,6 +11,13 @@
       "size": 21412,
       "width": 268,
       "height": 328
+    },
+    {
+      "path": "screenshots/ubuntu-first-drop-014.jpg",
+      "sha256": "60ac3b2d4f769e25de62ac8847033e18c0519cdc763372265853ee6ec11ac365",
+      "size": 32397,
+      "width": 918,
+      "height": 676
     }
   ]
 }

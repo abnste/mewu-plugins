@@ -18,8 +18,24 @@
       "version": "0.1.2"
     },
     {
+      "id": "abnste.hindsight",
+      "packageSha256": "db316296cc5f4176b3eee53da0be4c748ea04c0e103f203e9448efbb0186be70",
+      "screenshots": [
+        {
+          "height": 1080,
+          "path": "screenshots/banks-macos.png",
+          "sha256": "370882e7748a120207b701f653108418878b081f2d2e0e73ee3283940022d794",
+          "size": 1790298,
+          "width": 1920
+        }
+      ],
+      "sourceCommit": "b7eeb9ec8722526d57dc5eaa12e43f3111b9f654",
+      "sourceRepository": "abnste/mewu-plugin-hindsight",
+      "version": "0.1.4"
+    },
+    {
       "id": "abnste.object-toolbox",
-      "packageSha256": "5658c2c599a3c15112bbae2309ca3466ae2074f0cf47dd79c46435d14b717fe7",
+      "packageSha256": "2a5d6c6a35063ccdfcf50e68a3aee017a6b3c19ec091c12397c710e38e96bd7d",
       "screenshots": [
         {
           "height": 328,
@@ -27,11 +43,18 @@
           "sha256": "4456fea20e99ad2f80b79acfe5b10c3a352f4f494b8a4b88b42ef2a3aed7f87d",
           "size": 21412,
           "width": 268
+        },
+        {
+          "height": 676,
+          "path": "screenshots/ubuntu-first-drop-014.jpg",
+          "sha256": "60ac3b2d4f769e25de62ac8847033e18c0519cdc763372265853ee6ec11ac365",
+          "size": 32397,
+          "width": 918
         }
       ],
-      "sourceCommit": "47416c0247f0180d14b43ffd63993e774d56f1a1",
+      "sourceCommit": "fc76236ce7ac52ca7fb7694fd48fe4ce7d9ea789",
       "sourceRepository": "abnste/mewu-plugin-object-toolbox",
-      "version": "0.1.2"
+      "version": "0.1.4"
     },
     {
       "id": "example.interactive-widget",
@@ -69,7 +92,7 @@
     },
     {
       "id": "example.region-agent",
-      "packageSha256": "bfc5235101e44f42624d6f35630246f9b315cf31263e556befbd175a65dd5fca",
+      "packageSha256": "d45917c5389a75078403710d930a04d7d9e3fbe8eae42d24d78df9b13ff78664",
       "screenshots": [
         {
           "height": 310,
@@ -79,11 +102,25 @@
           "width": 573
         },
         {
+          "height": 1080,
+          "path": "screenshots/macos-region-014.png",
+          "sha256": "8fbf5be0f298ffe13c92b893b0b3a6c7ddafaf6c2e7c2e314a7eddd34e9b5594",
+          "size": 1809495,
+          "width": 1920
+        },
+        {
           "height": 494,
           "path": "screenshots/target-completed-windows.jpg",
           "sha256": "d74a23ec3b877a6afbb3f575d7b319c431b1fa5427cd81f6ab2f1e908bd3dfeb",
           "size": 16377,
           "width": 706
+        },
+        {
+          "height": 676,
+          "path": "screenshots/ubuntu-region-014.jpg",
+          "sha256": "0b22db2d73dadd26939b24f4d229d418e5389ee4099a948fdf1ca9207fe99626",
+          "size": 34518,
+          "width": 918
         },
         {
           "caption": "Windows 整窗区域实际完成点击与输入",
@@ -94,9 +131,9 @@
           "width": 1127
         }
       ],
-      "sourceCommit": "6737611b52062125df17be16e0a10b4959fe9a06",
+      "sourceCommit": "0555a6c7fe06e66a7313505af2f475358cf86136",
       "sourceRepository": "abnste/mewu-plugin-region-agent",
-      "version": "0.1.3"
+      "version": "0.1.5"
     },
     {
       "id": "example.research-notes",

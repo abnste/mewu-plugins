@@ -12,11 +12,11 @@
     ]
   },
   "repository": "abnste/mewu-plugin-object-toolbox",
-  "version": "0.1.2",
-  "releaseTag": "v0.1.2",
-  "assetName": "object-toolbox-0.1.2.zip",
-  "sha256": "5658c2c599a3c15112bbae2309ca3466ae2074f0cf47dd79c46435d14b717fe7",
-  "size": 11344,
+  "version": "0.1.4",
+  "releaseTag": "v0.1.4",
+  "assetName": "object-toolbox-0.1.4.zip",
+  "sha256": "2a5d6c6a35063ccdfcf50e68a3aee017a6b3c19ec091c12397c710e38e96bd7d",
+  "size": 11762,
   "hostApi": 2,
   "platforms": [
     "any"
