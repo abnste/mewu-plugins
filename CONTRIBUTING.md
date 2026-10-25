@@ -8,7 +8,7 @@
 
 目录条目字段由宿主的同一个严格 Rust 解析器核验，只接受可执行插件包。条目必须与实际 ZIP 内清单的 `id/name/description/version/tags/hostApi` 一致；GitHub `repository` 必须是 `owner/repo`，固定 `releaseTag`、`.zip` 的 `assetName`、完整 `sha256`、正整数 `size`。`platforms` 为 `["any"]` 或已验证平台列表；区域输入能力尚未提供的平台不能宣称兼容。
 
-每个插件必须有独立公开源码项目。项目 JSON 包含 `id/version/packageSha256/sourceRepository/sourceCommit/screenshots`：前三项对应安装条目，源码仓库用 `owner/repo`，提交必须是完整固定 SHA。CI 按 Git commit/tree/blob 验证源码中的清单和每个 JS/mjs 模块与真实发行 ZIP 字节一致；源码项目保留 `LICENSE`。不要把分支名当提交，也不要在源码仓库引用本机未提交文件。
+每个插件必须有独立公开源码项目，发行条目的 `repository` 必须与项目的 `sourceRepository` 一致。一个仓库只对应一个市场插件，不得把插件 ZIP 发布到 `abnste/mewu-plugins`，包括官方示例、镜像和临时兼容包。项目 JSON 包含 `id/version/packageSha256/sourceRepository/sourceCommit/screenshots`：前三项对应安装条目，源码仓库用 `owner/repo`，提交必须是完整固定 SHA。CI 按 Git commit/tree/blob 验证源码中的清单和每个 JS/mjs 模块与真实发行 ZIP 字节一致；源码项目保留 `LICENSE`。不要把分支名当提交，也不要在源码仓库引用本机未提交文件。
 
 `screenshots` 最多六张真实效果图，没有图填空数组。每项是 `path/sha256/size/width/height` 和可选 `caption`。文件须位于上述固定提交，格式为静态 PNG/JPEG/WebP，后缀与编码一致，最多 2 MiB、16–4096 像素边长、总像素不超过 8 Mi。禁止 SVG/HTML、动画、路径穿越、链接文件或任意外部图片 URL。不要用示意图冒充真实效果图；截图需移除密钥、私人背景与用户内容。
 

@@ -24,7 +24,9 @@
 - [长期记忆](https://github.com/abnste/mewu-plugin-journal-memory)
 - [交互组件](https://github.com/abnste/mewu-plugin-interactive-widget)
 
-既有插件发行包和安装来源保持不变；源码归属由固定提交的项目元数据核验。
+每个插件的发行仓库必须与其源码仓库一致，且每个仓库只对应一个市场插件。市场仓库不再承载插件 ZIP，也不作为插件发行镜像；CI 同时核验条目和源码项目，拒绝再次集中发行。源码归属由固定提交核验。
+
+早期集中发行的来源修正记录见 [source-relocations.json](source-relocations.json)，插件 ID、版本、包字节及权限不变。此记录不会绕过客户端的来源锁定：1.0.5 及更早版本中已经绑定旧仓库的安装，仍需要宿主提供明确的来源迁移支持；仅卸载不会清除绑定或保留数据。
 
 开发 SDK：[mewu-sdk-0.1.0.tgz](https://github.com/abnste/mewu-plugins/releases/download/v0.1.0/mewu-sdk-0.1.0.tgz)。宿主内置运行时模块；这个包提供开发类型与 ESM SDK，不要求用户安装 Node.js。打包与投稿命令见 [发行工具](https://github.com/abnste/mewu_ai/blob/master/tools/extension-market/README.md)。
 

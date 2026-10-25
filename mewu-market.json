@@ -93,7 +93,7 @@
         "any"
       ],
       "releaseTag": "v0.1.0",
-      "repository": "abnste/mewu-plugins",
+      "repository": "abnste/mewu-plugin-interactive-widget",
       "sha256": "72eee7a57a4ac66babacc0b0f3ad6ceeb684bc7d43f05ba58593ffaa1087cad2",
       "size": 3391,
       "tags": [
@@ -120,7 +120,7 @@
         "any"
       ],
       "releaseTag": "v0.1.0",
-      "repository": "abnste/mewu-plugins",
+      "repository": "abnste/mewu-plugin-journal-memory",
       "sha256": "85891f3f9550f268cb515fd2563b4f4ddc552e0f6207216e69b49572a561b4fb",
       "size": 4546,
       "tags": [
@@ -148,7 +148,7 @@
         "linux-x86_64"
       ],
       "releaseTag": "v0.1.5",
-      "repository": "abnste/mewu-plugins",
+      "repository": "abnste/mewu-plugin-region-agent",
       "sha256": "d45917c5389a75078403710d930a04d7d9e3fbe8eae42d24d78df9b13ff78664",
       "size": 15750,
       "tags": [

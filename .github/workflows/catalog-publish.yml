@@ -2,7 +2,7 @@ name: Publish verified catalog
 on:
   push:
     branches: [main]
-    paths: ['entries/**', 'projects/**', 'host-source.json', '.github/workflows/catalog-publish.yml']
+    paths: ['entries/**', 'projects/**', 'host-source.json', 'scripts/**', '.github/workflows/catalog-publish.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -21,6 +21,13 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
           node-version: '22'
+      - name: Enforce independent plugin release ownership
+        shell: pwsh
+        run: |
+          node --test scripts/verify-ownership.test.mjs
+          if ($LASTEXITCODE -ne 0) { throw 'Ownership regression tests failed' }
+          node scripts/verify-ownership.mjs entries projects
+          if ($LASTEXITCODE -ne 0) { throw 'Plugin release repository differs from its independent source' }
       - id: host
         run: node scripts/host-source.mjs
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683

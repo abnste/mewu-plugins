@@ -10,7 +10,7 @@
     "linux-x86_64"
   ],
   "releaseTag": "v0.1.5",
-  "repository": "abnste/mewu-plugins",
+  "repository": "abnste/mewu-plugin-region-agent",
   "sha256": "d45917c5389a75078403710d930a04d7d9e3fbe8eae42d24d78df9b13ff78664",
   "size": 15750,
   "tags": [

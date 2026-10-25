@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "reviewedFromCommit": "720dfeb87671f94f258f2ffdda8ae1bf6c6ddbf3",
+  "reason": "仓库所有者明确要求纠正错误的集中发行；每个插件在自己的源码仓库发行。",
+  "proof": "原仓库与独立仓库的真实公开发行包逐字节一致；未改插件 ID、版本、代码、权限或数据。",
+  "installedSourceBinding": "本记录不授权客户端静默换源。1.0.5及更早的既有来源绑定仍须由后续宿主支持显式迁移。",
+  "relocations": [
+    {
+      "id": "example.region-agent",
+      "fromRepository": "abnste/mewu-plugins",
+      "toRepository": "abnste/mewu-plugin-region-agent",
+      "version": "0.1.5",
+      "sha256": "d45917c5389a75078403710d930a04d7d9e3fbe8eae42d24d78df9b13ff78664",
+      "size": 15750,
+      "release": "https://github.com/abnste/mewu-plugin-region-agent/releases/tag/v0.1.5"
+    },
+    {
+      "id": "example.interactive-widget",
+      "fromRepository": "abnste/mewu-plugins",
+      "toRepository": "abnste/mewu-plugin-interactive-widget",
+      "version": "0.1.0",
+      "sha256": "72eee7a57a4ac66babacc0b0f3ad6ceeb684bc7d43f05ba58593ffaa1087cad2",
+      "size": 3391,
+      "release": "https://github.com/abnste/mewu-plugin-interactive-widget/releases/tag/v0.1.0"
+    },
+    {
+      "id": "example.journal-memory",
+      "fromRepository": "abnste/mewu-plugins",
+      "toRepository": "abnste/mewu-plugin-journal-memory",
+      "version": "0.1.0",
+      "sha256": "85891f3f9550f268cb515fd2563b4f4ddc552e0f6207216e69b49572a561b4fb",
+      "size": 4546,
+      "release": "https://github.com/abnste/mewu-plugin-journal-memory/releases/tag/v0.1.0"
+    }
+  ]
+}

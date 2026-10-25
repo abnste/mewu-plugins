@@ -40,6 +40,13 @@ jobs:
         env:
           MEWU_PLUGIN_VALIDATOR: ${{ github.workspace }}/trusted-host/target/debug/mewu-plugin-validator.exe
         run: node --test tools/extension-market/test.mjs tools/extension-market/project-test.mjs tools/extension-market/native-test.mjs tools/extension-market/project-native-test.mjs
+      - name: Enforce independent release ownership using trusted market code
+        shell: pwsh
+        run: |
+          node --test trusted-market/scripts/verify-ownership.test.mjs
+          if ($LASTEXITCODE -ne 0) { throw 'Ownership regression tests failed' }
+          node trusted-market/scripts/verify-ownership.mjs candidate-entries candidate-projects
+          if ($LASTEXITCODE -ne 0) { throw 'Plugin release repository differs from its independent source' }
       - name: Verify published assets and generate candidate index
         env:
           GH_TOKEN: ${{ github.token }}
