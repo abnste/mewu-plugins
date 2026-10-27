@@ -28,7 +28,7 @@
 
 早期集中发行的来源修正记录见 [source-relocations.json](source-relocations.json)，插件 ID、版本、包字节及权限不变。此记录不会绕过客户端的来源锁定。MewuAI 1.0.6 起，已安装页会按当前市场来源显示“更新”或“迁移来源”，安装审核展示原来源与新来源；用户确认后按通用协议迁移，保留插件 ID、配置、凭据、记忆、对象库和启停状态。同版本换源也需审核，原安装包保留用于回滚。1.0.5 及更早版本请先更新宿主；卸载不会清除既有来源绑定或保留数据。
 
-开发 SDK：[mewu-sdk-0.2.1.tgz](https://github.com/abnste/mewu-plugins/releases/download/v0.2.1/mewu-sdk-0.2.1.tgz)。宿主内置运行时模块；这个包提供开发类型与 ESM SDK，不要求用户安装 Node.js。打包与投稿命令见 [发行工具](https://github.com/abnste/mewu_ai/blob/master/tools/extension-market/README.md)。
+开发 SDK：[mewu-sdk-0.2.2.tgz](https://github.com/abnste/mewu-plugins/releases/download/v0.2.2/mewu-sdk-0.2.2.tgz)。宿主内置运行时模块；这个包提供开发类型与 ESM SDK，不要求用户安装 Node.js。打包与投稿命令见 [发行工具](https://github.com/abnste/mewu_ai/blob/master/tools/extension-market/README.md)。
 
 ## 独立项目与真实图库
 
