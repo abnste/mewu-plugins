@@ -3,7 +3,7 @@
   "projects": [
     {
       "id": "abnste.agent-connectors",
-      "packageSha256": "335ad3c68e0bc1eae9d58fc8803e4188d998a7930034cee4a0590351fb87cbcd",
+      "packageSha256": "e4cf0533f4223030396f76e7fb8a31792ef0abb34cd1c16762fe970f76a72ad9",
       "screenshots": [
         {
           "height": 652,
@@ -13,9 +13,9 @@
           "width": 822
         }
       ],
-      "sourceCommit": "e3023f9426b3e97c70d077c5818af93d941f9d95",
+      "sourceCommit": "f70d0de97f45bbe98df6c9def9d605909abf75a1",
       "sourceRepository": "abnste/mewu-plugin-agent-connectors",
-      "version": "0.1.2"
+      "version": "0.1.6"
     },
     {
       "id": "abnste.hindsight",

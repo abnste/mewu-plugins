@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "plugins": [
     {
-      "assetName": "agent-connectors-0.1.2.zip",
+      "assetName": "agent-connectors-0.1.6.zip",
       "description": "在原对话条接入 Codex、MiniMax Code、WorkBuddy / CodeBuddy 和 Hermes，并在设置中管理和检测连接。",
       "hostApi": 2,
       "icon": {
@@ -16,15 +16,15 @@
       "platforms": [
         "any"
       ],
-      "releaseTag": "v0.1.2",
+      "releaseTag": "v0.1.6",
       "repository": "abnste/mewu-plugin-agent-connectors",
-      "sha256": "335ad3c68e0bc1eae9d58fc8803e4188d998a7930034cee4a0590351fb87cbcd",
-      "size": 35748,
+      "sha256": "e4cf0533f4223030396f76e7fb8a31792ef0abb34cd1c16762fe970f76a72ad9",
+      "size": 44291,
       "tags": [
         "agents",
         "model-providers"
       ],
-      "version": "0.1.2"
+      "version": "0.1.6"
     },
     {
       "assetName": "hindsight-0.1.4.zip",
