@@ -57,6 +57,14 @@
       "version": "0.1.4"
     },
     {
+      "id": "example.aurora-theme",
+      "packageSha256": "5a0a2f7df80487449e653e43878dabbffffb64bb2eec948951e33726d8eb47ca",
+      "screenshots": [],
+      "sourceCommit": "71188c8213322597c72663167bc4d7674d0e312a",
+      "sourceRepository": "abnste/mewu-plugin-aurora-theme",
+      "version": "0.1.0"
+    },
+    {
       "id": "example.interactive-widget",
       "packageSha256": "72eee7a57a4ac66babacc0b0f3ad6ceeb684bc7d43f05ba58593ffaa1087cad2",
       "screenshots": [
@@ -88,6 +96,14 @@
       ],
       "sourceCommit": "48e02d55da4e0a934775f9aa3453a429249e9a69",
       "sourceRepository": "abnste/mewu-plugin-journal-memory",
+      "version": "0.1.0"
+    },
+    {
+      "id": "example.paper-theme",
+      "packageSha256": "ccccfdf242f7dcfab2cf059b27217236987fa1322f5597b69eeb7aca726e52d8",
+      "screenshots": [],
+      "sourceCommit": "41a12bc17d932b46ca23e9e5db27c6cc849f5e67",
+      "sourceRepository": "abnste/mewu-plugin-paper-theme",
       "version": "0.1.0"
     },
     {

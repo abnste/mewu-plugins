@@ -1,0 +1,25 @@
+{
+  "id": "example.paper-theme",
+  "name": "Paper",
+  "description": "暖色纸张主题与背景",
+  "hostApi": 2,
+  "tags": [
+    "themes"
+  ],
+  "version": "0.1.0",
+  "icon": {
+    "paths": [
+      "M5 3h10l4 4v14H5V3Z",
+      "M14 3v5h5M8 12h8M8 16h6"
+    ],
+    "color": "#947231"
+  },
+  "repository": "abnste/mewu-plugin-paper-theme",
+  "releaseTag": "v0.1.0",
+  "assetName": "paper-theme-0.1.0.zip",
+  "sha256": "ccccfdf242f7dcfab2cf059b27217236987fa1322f5597b69eeb7aca726e52d8",
+  "size": 1673,
+  "platforms": [
+    "any"
+  ]
+}

@@ -58,6 +58,24 @@
       "version": "0.1.4"
     },
     {
+      "assetName": "aurora-theme-0.1.0.zip",
+      "description": "深色青绿主题",
+      "hostApi": 2,
+      "id": "example.aurora-theme",
+      "name": "Aurora",
+      "platforms": [
+        "any"
+      ],
+      "releaseTag": "v0.1.0",
+      "repository": "abnste/mewu-plugin-aurora-theme",
+      "sha256": "5a0a2f7df80487449e653e43878dabbffffb64bb2eec948951e33726d8eb47ca",
+      "size": 1474,
+      "tags": [
+        "themes"
+      ],
+      "version": "0.1.0"
+    },
+    {
       "assetName": "interactive-widget-0.1.0.zip",
       "description": "可移动空间对象中的交互式透明 SVG 尺。",
       "hostApi": 2,
@@ -91,6 +109,24 @@
       "size": 4546,
       "tags": [
         "memory"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "assetName": "paper-theme-0.1.0.zip",
+      "description": "暖色纸张主题与背景",
+      "hostApi": 2,
+      "id": "example.paper-theme",
+      "name": "Paper",
+      "platforms": [
+        "any"
+      ],
+      "releaseTag": "v0.1.0",
+      "repository": "abnste/mewu-plugin-paper-theme",
+      "sha256": "ccccfdf242f7dcfab2cf059b27217236987fa1322f5597b69eeb7aca726e52d8",
+      "size": 1673,
+      "tags": [
+        "themes"
       ],
       "version": "0.1.0"
     },

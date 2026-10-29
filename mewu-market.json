@@ -76,6 +76,32 @@
       "version": "0.1.4"
     },
     {
+      "assetName": "aurora-theme-0.1.0.zip",
+      "description": "深色青绿主题",
+      "hostApi": 2,
+      "icon": {
+        "color": "#80D6C5",
+        "filled": false,
+        "paths": [
+          "M12 3a9 9 0 1 0 9 9c0-1-1-2-2-2h-2a2 2 0 0 1-2-2V6c0-2-1-3-3-3Z",
+          "M7 11h.01M8 16h.01M12 18h.01"
+        ]
+      },
+      "id": "example.aurora-theme",
+      "name": "Aurora",
+      "platforms": [
+        "any"
+      ],
+      "releaseTag": "v0.1.0",
+      "repository": "abnste/mewu-plugin-aurora-theme",
+      "sha256": "5a0a2f7df80487449e653e43878dabbffffb64bb2eec948951e33726d8eb47ca",
+      "size": 1474,
+      "tags": [
+        "themes"
+      ],
+      "version": "0.1.0"
+    },
+    {
       "assetName": "interactive-widget-0.1.0.zip",
       "description": "可移动空间对象中的交互式透明 SVG 尺。",
       "hostApi": 2,
@@ -125,6 +151,32 @@
       "size": 4546,
       "tags": [
         "memory"
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "assetName": "paper-theme-0.1.0.zip",
+      "description": "暖色纸张主题与背景",
+      "hostApi": 2,
+      "icon": {
+        "color": "#947231",
+        "filled": false,
+        "paths": [
+          "M5 3h10l4 4v14H5V3Z",
+          "M14 3v5h5M8 12h8M8 16h6"
+        ]
+      },
+      "id": "example.paper-theme",
+      "name": "Paper",
+      "platforms": [
+        "any"
+      ],
+      "releaseTag": "v0.1.0",
+      "repository": "abnste/mewu-plugin-paper-theme",
+      "sha256": "ccccfdf242f7dcfab2cf059b27217236987fa1322f5597b69eeb7aca726e52d8",
+      "size": 1673,
+      "tags": [
+        "themes"
       ],
       "version": "0.1.0"
     },
