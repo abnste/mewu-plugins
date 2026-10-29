@@ -59,8 +59,17 @@
     {
       "id": "example.aurora-theme",
       "packageSha256": "5a0a2f7df80487449e653e43878dabbffffb64bb2eec948951e33726d8eb47ca",
-      "screenshots": [],
-      "sourceCommit": "71188c8213322597c72663167bc4d7674d0e312a",
+      "screenshots": [
+        {
+          "caption": "MewuAI 1.2.0 在 Windows 中应用 Aurora 主题的原生设置窗口",
+          "height": 652,
+          "path": "screenshots/settings-windows.jpg",
+          "sha256": "94d529da15d7a23155490b951de441c9dfdbe0bc83a45ab04e0eb7c967693662",
+          "size": 34345,
+          "width": 822
+        }
+      ],
+      "sourceCommit": "e118ef4a28403c158dfae20ddcece82f6a5c272b",
       "sourceRepository": "abnste/mewu-plugin-aurora-theme",
       "version": "0.1.0"
     },
@@ -101,8 +110,17 @@
     {
       "id": "example.paper-theme",
       "packageSha256": "ccccfdf242f7dcfab2cf059b27217236987fa1322f5597b69eeb7aca726e52d8",
-      "screenshots": [],
-      "sourceCommit": "41a12bc17d932b46ca23e9e5db27c6cc849f5e67",
+      "screenshots": [
+        {
+          "caption": "MewuAI 1.2.0 在 Windows 中应用 Paper 主题的原生设置窗口",
+          "height": 652,
+          "path": "screenshots/settings-windows.jpg",
+          "sha256": "7a31066c39911b764617772173e9a5a6c396be283a828dcc56a01d5f09fda19f",
+          "size": 47733,
+          "width": 822
+        }
+      ],
+      "sourceCommit": "ba0728929c980fff2d75e43e90acc18396305718",
       "sourceRepository": "abnste/mewu-plugin-paper-theme",
       "version": "0.1.0"
     },

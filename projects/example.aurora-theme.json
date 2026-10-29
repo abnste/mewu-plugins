@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "packageSha256": "5a0a2f7df80487449e653e43878dabbffffb64bb2eec948951e33726d8eb47ca",
   "sourceRepository": "abnste/mewu-plugin-aurora-theme",
-  "sourceCommit": "71188c8213322597c72663167bc4d7674d0e312a",
-  "screenshots": []
+  "sourceCommit": "e118ef4a28403c158dfae20ddcece82f6a5c272b",
+  "screenshots": [
+    {
+      "path": "screenshots/settings-windows.jpg",
+      "sha256": "94d529da15d7a23155490b951de441c9dfdbe0bc83a45ab04e0eb7c967693662",
+      "size": 34345,
+      "width": 822,
+      "height": 652,
+      "caption": "MewuAI 1.2.0 在 Windows 中应用 Aurora 主题的原生设置窗口"
+    }
+  ]
 }

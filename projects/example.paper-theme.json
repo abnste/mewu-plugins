@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "packageSha256": "ccccfdf242f7dcfab2cf059b27217236987fa1322f5597b69eeb7aca726e52d8",
   "sourceRepository": "abnste/mewu-plugin-paper-theme",
-  "sourceCommit": "41a12bc17d932b46ca23e9e5db27c6cc849f5e67",
-  "screenshots": []
+  "sourceCommit": "ba0728929c980fff2d75e43e90acc18396305718",
+  "screenshots": [
+    {
+      "path": "screenshots/settings-windows.jpg",
+      "sha256": "7a31066c39911b764617772173e9a5a6c396be283a828dcc56a01d5f09fda19f",
+      "size": 47733,
+      "width": 822,
+      "height": 652,
+      "caption": "MewuAI 1.2.0 在 Windows 中应用 Paper 主题的原生设置窗口"
+    }
+  ]
 }
