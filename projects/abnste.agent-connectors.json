@@ -1,9 +1,9 @@
 {
   "id": "abnste.agent-connectors",
-  "version": "0.1.8",
-  "packageSha256": "dde1b303e77597a1ed8095efd7f0da080f4fef85f435e0e56f50cb1c33920d6e",
+  "version": "0.1.9",
+  "packageSha256": "464cd3ad870683a50d10e2205abe761f04d414c635ac3145a05893187bedf129",
   "sourceRepository": "abnste/mewu-plugin-agent-connectors",
-  "sourceCommit": "fbd18cda49901702285c2ba2cca22f97c4ea0467",
+  "sourceCommit": "f31b8bc52064e87e2067a09f88f3bbac47038ac5",
   "screenshots": [
     {
       "path": "screenshots/settings-windows.jpg",
